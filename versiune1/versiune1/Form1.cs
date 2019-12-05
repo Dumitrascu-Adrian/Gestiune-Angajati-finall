@@ -6,40 +6,25 @@ using System.Windows.Forms;
 namespace versiune1
 {
 
-    public partial class Form1 : Form
+    public partial class Main_Form : Form
     {
-        public Form1()
+        FunctiDB functie = new FunctiDB();
+        public Main_Form()
         {
             InitializeComponent();
             Afisare();
+           
         }
-        String AfisareSpati(String str)
-        {
-            String spati = "";
-            int x = str.Length;
-            for (int i=x;i<20;i++)
-            {
-                spati = spati + " ";
-            }
-            return spati;
-        }
+      
       public  void Afisare()
         {
-            ListaAngajati.Items.Clear();
-            ListaAngajati.Items.Add("Id" + " " + "Nume" + AfisareSpati("Nume") + "Prenume" + "    " + "Data nasteri" + "     " + "Angajarat" + "     " +"Salariu");
+            tabel_afisare.Rows.Clear();
 
-            using (var context = new EmployeeEntities())
-            {
-                var query = from st in context.Angajats
-
-                            select st;
-
-                var student = context.Angajats.ToList();
-                foreach (Angajat ang in student)
+                var Angajatii = functie.GetAllAngajat();
+                foreach (Angajat ang in Angajatii)
                 {
-                    ListaAngajati.Items.Add(ang.Id + " " + ang.Nume + AfisareSpati(ang.Nume) + ang.Prenume + AfisareSpati(ang.Prenume) + ang.Data_nasteri + "     " + ang.Data_Angajari + "     " + ang.Salariu);
-                }
-            }
+                tabel_afisare.Rows.Add(ang.Nume , ang.Prenume , ang.Data_nasteri , ang.Data_Angajari,ang.Salariu,"" ,"" , ang.Id);
+                }          
         }
            
       
@@ -48,40 +33,46 @@ namespace versiune1
             export Form_edit = new export();
             Form_edit.Show();
         }
+       
+    
+       
+      
 
-        private void Edit_button_Click(object sender, EventArgs e)
+        private void Refresh_button_Click(object sender, EventArgs e)
         {
-            string[] words = ListaAngajati.Items[ListaAngajati.SelectedIndex].ToString().Split(' ');
-            int indice = int.Parse(words[0]);
-            Editare_Angajat Form_edit = new Editare_Angajat(indice);
-
-            this.Visible = false;
-            Form_edit.Show();
-        
-        }
-
-        private void Delete_button_Click(object sender, EventArgs e)
-        {
-            
-            string[] words = ListaAngajati.Items[ListaAngajati.SelectedIndex].ToString().Split(' ');
-            int indice = int.Parse(words[0]);
-             using (var context = new EmployeeEntities())
-              {
-                  var std = context.Angajats.Where(s=>s.Id== indice).First<Angajat>();
-                  context.Angajats.Remove(std);
-
-                  context.SaveChanges();
-              }
             Afisare();
         }
 
-        private void exit_button_Click(object sender, EventArgs e) => this.Close();
-
         private void Angajat_nou_button_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
+           // this.Visible = false;
             Nou_Angajat Form_new = new Nou_Angajat();
             Form_new.Show();
+        }
+
+
+   
+
+   
+
+     
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(e.ColumnIndex==5)
+            {
+                DataGridViewRow selectRow = tabel_afisare.Rows[e.RowIndex];
+                int id_angajat = int.Parse(selectRow.Cells[7].Value.ToString());
+                Editare_Angajat Form_edit = new Editare_Angajat(id_angajat);
+               Form_edit.Show();
+               
+            }
+            if (e.ColumnIndex == 6)
+            {
+                DataGridViewRow selectRow = tabel_afisare.Rows[e.RowIndex];
+                int id_angajat = int.Parse(selectRow.Cells[7].Value.ToString());
+                functie.StergeAngajat(id_angajat);
+                Afisare();
+            }
         }
     }
 }

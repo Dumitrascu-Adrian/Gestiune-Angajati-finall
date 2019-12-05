@@ -12,6 +12,7 @@ namespace versiune1
 {
     public partial class Nou_Angajat : Form
     {
+        FunctiDB functii = new FunctiDB();
         public Nou_Angajat()
         {
             InitializeComponent();
@@ -19,24 +20,22 @@ namespace versiune1
 
         private void Save_button_Click(object sender, EventArgs e)
         {
-            using (var Context = new EmployeeEntities())
-            {
+           
                 var ang = new Angajat()
                 {
                     Nume = textBox_nume.Text,
                     Prenume = textBox_prenume.Text,
+                   
                     Data_Angajari = textBox_dataangajari.Text,
                     Data_nasteri = textBoxData_nasteri.Text,
                     Salariu = int.Parse(textBox_salariu.Text)
-
-
+                    
                 };
-                Context.Angajats.Add(ang);
-                Context.SaveChanges();
-                new Form1().Show();
-                this.Close();
+           
+            functii.Insert(ang);
+            this.Close();
 
-            }
+          
         }
     }
 }

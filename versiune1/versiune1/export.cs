@@ -18,72 +18,48 @@ namespace versiune1
 {
     public partial class export : Form
     {
+        FunctiDB functie = new FunctiDB();
         public export()
         {
             InitializeComponent();
         }
 
-        public object Table { get; private set; }
-
-        private void button_ok_Click(object sender, EventArgs e)
+        void ExportJSON()
         {
-              XmlDocument xmlDoc = new XmlDocument();
-               if (Alegere_tip.Text == "JSON")
-               {
-
-                   using (var context = new EmployeeEntities())
-                   {
-                       var query = from st in context.Angajats
-
-                                   select st;
-
-                       var angajati = context.Angajats.ToList();
-
-                       var jsonSerialiser = new System.Web.Script.Serialization.JavaScriptSerializer();
-                       string jsonString = jsonSerialiser.Serialize(angajati);
-                       System.IO.File.WriteAllText(@"D:\Angajatlist.json", jsonString);
-
-
-                   }
-                   MessageBox.Show("Export reusit \n Fisierul se afla in D");
-                   this.Close();
-               }
-               else
-               {
-                   DataSet ds = new DataSet();
-                Angajat ang = new Angajat();
-                DataTable dt = new DataTable();
-                ang.GetType().GetProperties().ToList().ForEach(f => { f.GetValue(ang, null); dt.Columns.Add(f.Name, f.PropertyType); });
-
-                using (var context = new EmployeeEntities())
-                {
-                    var query = from st in context.Angajats
-
-                                select st;
-
-                    var angajati = context.Angajats.ToList();
-                    foreach (var angajatt in angajati)
-                    {
-                        dt.Rows.Add(angajatt.Id, angajatt.Nume, angajatt.Prenume, angajatt.Data_nasteri, angajatt.Data_Angajari, angajatt.Salariu);
-                    }
-                    ds.Tables.Add(dt);
-                    ds.WriteXml(File.OpenWrite(@"D:\test1.xml"));
-                    MessageBox.Show("Export reusit \n Fisierul se afla in D");
-                }
-              
-               
-
-
-                   
-                  
-               }
-            this.Close();
-
+            var angajati = functie.GetAllAngajat();
+            var jsonSerialiser = new System.Web.Script.Serialization.JavaScriptSerializer();
+            string jsonString = jsonSerialiser.Serialize(angajati);
+            File.WriteAllText(@"D:\AngajatiDB.json", jsonString);
+            MessageBox.Show("Export reusit \n Fisierul se afla in D\n si are numele AngajatiDB.json");
         }
 
+        void ExportXML()
+        {
+            DataSet ds = new DataSet();
+            Angajat ang = new Angajat();
+            DataTable dt = new DataTable();
+            ang.GetType().GetProperties().ToList().ForEach(f => { f.GetValue(ang, null); dt.Columns.Add(f.Name, f.PropertyType); });
 
-
-
-
+            var angajati = functie.GetAllAngajat();
+            foreach (var angajat in angajati)
+            {
+                dt.Rows.Add(angajat.Id, angajat.Nume, angajat.Prenume, angajat.Data_nasteri, angajat.Data_Angajari, angajat.Salariu);
+            }
+            ds.Tables.Add(dt);
+            ds.WriteXml(File.OpenWrite(@"D:\AngajatiDB.xml"));
+            MessageBox.Show("Export reusit \n Filsierul se afla in D\n si are numele AngajatiDB.xml");           
+        }
+        private void button_ok_Click(object sender, EventArgs e)
+        {
+            if (Alegere_tip.Text == "JSON")
+            {
+            ExportJSON();
+            }
+            else
+            {
+            ExportXML();
+            }
+            this.Close();
+        }
     }
 }

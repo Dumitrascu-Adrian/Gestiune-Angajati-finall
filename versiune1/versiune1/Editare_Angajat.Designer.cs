@@ -39,7 +39,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.Update_button = new System.Windows.Forms.Button();
-            this.textBox_id = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox_nume
@@ -112,7 +111,7 @@
             this.label4.Size = new System.Drawing.Size(94, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "Data Angajari";
-           // 
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -132,19 +131,11 @@
             this.Update_button.UseVisualStyleBackColor = true;
             this.Update_button.Click += new System.EventHandler(this.Update_button_Click);
             // 
-            // textBox_id
-            // 
-            this.textBox_id.Location = new System.Drawing.Point(257, 22);
-            this.textBox_id.Name = "textBox_id";
-            this.textBox_id.Size = new System.Drawing.Size(100, 22);
-            this.textBox_id.TabIndex = 12;
-            // 
             // Editare_Angajat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox_id);
             this.Controls.Add(this.Update_button);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -176,6 +167,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button Update_button;
-        private System.Windows.Forms.TextBox textBox_id;
     }
 }

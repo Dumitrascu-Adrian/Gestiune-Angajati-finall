@@ -5,12 +5,9 @@ D:\my space\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.dll
 D:\my space\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.dll
 D:\my space\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.xml
 D:\my space\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.xml
-D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
-D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.Form1.resources
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.Properties.Resources.resources
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.GenerateResource.cache
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.CoreCompileInputs.cache
-D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.exe
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.pdb
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.Editare_Angajat.resources
@@ -18,3 +15,86 @@ D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.export.reso
 D:\my space\nerd application\versiune1\versiune1\bin\Debug\Newtonsoft.Json.dll
 D:\my space\nerd application\versiune1\versiune1\bin\Debug\Newtonsoft.Json.xml
 D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.Nou_Angajat.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\versiune1.exe.config
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\versiune1.exe
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\versiune1.pdb
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\EntityFramework.dll
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.dll
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\Newtonsoft.Json.dll
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\EntityFramework.xml
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.xml
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\bin\Debug\Newtonsoft.Json.xml
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.Editare_Angajat.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.export.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.Form1.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.Nou_Angajat.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.Properties.Resources.resources
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.csproj.GenerateResource.cache
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.csproj.CoreCompileInputs.cache
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.exe
+D:\my space\nerd application\Gestiune-Angajati-final\versiune1\versiune1\obj\Debug\versiune1.pdb
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\versiune1.exe.config
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\versiune1.exe
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\versiune1.pdb
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\EntityFramework.dll
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\EntityFramework.xml
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\uia93798\Desktop\versiune1\versiune1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.Editare_Angajat.resources
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.export.resources
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.Form1.resources
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.Nou_Angajat.resources
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.Properties.Resources.resources
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.csproj.GenerateResource.cache
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.csproj.CoreCompileInputs.cache
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.exe
+C:\Users\uia93798\Desktop\versiune1\versiune1\obj\Debug\versiune1.pdb
+D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.Main_Form.resources
+D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
+D:\my space\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
+D:\nerd application\versiune1\versiune1\bin\Debug\versiune1.exe.config
+D:\nerd application\versiune1\versiune1\bin\Debug\versiune1.exe
+D:\nerd application\versiune1\versiune1\bin\Debug\versiune1.pdb
+D:\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.dll
+D:\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.dll
+D:\nerd application\versiune1\versiune1\bin\Debug\Newtonsoft.Json.dll
+D:\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.xml
+D:\nerd application\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.xml
+D:\nerd application\versiune1\versiune1\bin\Debug\Newtonsoft.Json.xml
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.Editare_Angajat.resources
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.export.resources
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.Main_Form.resources
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.Nou_Angajat.resources
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.Properties.Resources.resources
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.GenerateResource.cache
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.CoreCompileInputs.cache
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.exe
+D:\nerd application\versiune1\versiune1\obj\Debug\versiune1.pdb
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\versiune1.exe.config
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\versiune1.exe
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\versiune1.pdb
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\EntityFramework.dll
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\Newtonsoft.Json.dll
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\EntityFramework.xml
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\bin\Debug\Newtonsoft.Json.xml
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.csprojAssemblyReference.cache
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.Editare_Angajat.resources
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.export.resources
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.Main_Form.resources
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.Nou_Angajat.resources
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.Properties.Resources.resources
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.csproj.GenerateResource.cache
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.csproj.CoreCompileInputs.cache
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.csproj.CopyComplete
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.exe
+D:\Proiecte\Gestiune-Angajati-finall\versiune1\versiune1\obj\Debug\versiune1.pdb
